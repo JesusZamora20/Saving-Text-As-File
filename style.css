@@ -89,4 +89,15 @@ body{
     font-size: 1em;
     padding: 0 2em 0 2em;
     margin-top: 0.5em;
+    color: white;
+    background-color: cadetblue;
+    border-color: cadetblue;
+    border-style: solid;
+    border-radius: 0.3em;
+}
+
+.button .save-button:active{
+    background-color: #84A5D7 ;
+    border-style: solid;
+    border-color: #84A5D7 ;
 }
