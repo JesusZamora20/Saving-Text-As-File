@@ -6,27 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saving Text as File</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
 </head>
 <body>
     <section class="wrapper">
-        <textarea class="textarea" placeholder="Type Your Text Here"></textarea>
+        <textarea class="textarea" placeholder="Type Your Text Here" required></textarea>
 
         <section class="file-options">
-            <section class="file-name">
+            <section class="option file-name">
                 <label>File Name</label>
                 <input type="text" placeholder=" Write File Name">
             </section>
 
-            <section class="file-format">
+            <section class="option file-format">
                 <label>Save As</label>
                 <section class="select-menu">
                     <select>
-                        <option value="">Javascript File (.js)</option>
-                        <option value="">Text File (.txt)</option>
-                        <option value="">HTML File (.html)</option>
-                        <option value="">SVG File (.svg)</option>
-                        <option value="">Doc File (.doc)</option>
-                        <option value="">Ppt File (.ppt)</option>
+                        <option value="text/javascript">Javascript File (.js)</option>
+                        <option value="text/plain">Text File (.txt)</option>
+                        <option value="text/html">HTML File (.html)</option>
+                        <option value="image/svg+xml">SVG File (.svg)</option>
+                        <option value="application/msword">Doc File (.doc)</option>
+                        <option value="application/vnd.ms-powerpoint">Ppt File (.ppt)</option>
                     </select> 
                 </section>
             </section>

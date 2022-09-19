@@ -85,15 +85,18 @@ body{
     justify-content: center;
 }
 
-.button .save-button{
+.wrapper .save-button{
     font-size: 1em;
     padding: 0 2em 0 2em;
     margin-top: 0.5em;
     color: white;
     background-color: cadetblue;
     border-color: cadetblue;
+    cursor: pointer;
     border-style: solid;
     border-radius: 0.3em;
+    opacity: 0.6;
+    /* pointer-events: none; */
 }
 
 .button .save-button:active{
